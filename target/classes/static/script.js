@@ -97,4 +97,6 @@ function deletarJogo() {
     } else {
         alert('Não foi possível deletar o jogo');
     }
+    alert('Jogo excluído com sucesso');
+    document.getElementById('cadastroform').reset();
 }
